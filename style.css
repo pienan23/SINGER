@@ -1,0 +1,199 @@
+*{
+   
+      margin: 0px;
+      padding:0px;
+      text-decoration: none;
+      list-style-type: none;
+}
+.sign-body{
+    position: absolute;
+    width: 1216px;
+    height: 865px;
+    margin-left: 360px;
+    top: 60px;
+
+background:white;
+box-shadow: 0px 20px 32px rgba(162, 162, 170, 0.16);
+border-radius: 16px;
+}
+.contain{
+    margin: 72px;
+}
+#wrap-form{
+    display: flex;
+    flex-direction: column;
+
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px;
+
+position: absolute;
+width: 420px;
+height: 479px;
+left: 130px;
+top: 222px;
+}
+#wrap-form form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  
+
+ 
+}
+#wrap-form form .header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input{
+ border-radius: 5px;
+    width: 326px;
+    height:40px;
+    border: 2px solid rgb(185, 184, 184);
+    color:rgb(214, 213, 213); 
+  
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+   
+   
+  
+}
+input[type="email"]{
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    margin-bottom: 10px;
+    line-height: 2PX;
+ background-color:  #d8d6d6;
+ color: white;
+ font-size: 20px;
+
+}
+input[type="password"]{
+    margin-bottom: 30px;
+}
+.otherconnect{
+    display: flex;
+    flex-direction: column;
+    
+}
+.otherconnect button{
+ margin-bottom: 20px;
+ height: 40px;
+ border-radius: 5px;
+ border: 2px solid rgb(185, 184, 184);
+    
+} 
+.otherconnect button a{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+       
+   }
+   
+   .otherconnect button a img{
+   margin-right: 6px;
+   margin-top: -10px;
+   } 
+   .otherconnect button a p{
+    font-size: 13px;
+   margin-top: 5px;
+   font-weight: bold;
+   color: rgb(77, 76, 76);
+
+    } 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rectangle{
+ position: absolute;
+height: 800px;
+left: 590px;
+top: 24px;
+border-radius: 20px;
+background-image: url(image/side\ right.png);
+
+}
+#rectangle .rectangle-glass{
+    position: absolute;
+border-radius: 20px;
+box-sizing: border-box;
+margin: 60px 20px 87px 30px;
+height: 700px;
+width: 520px;
+background: rgba(183, 233, 246, 0.25);
+backdrop-filter: blur(13px);
+
+}
+#rectangle .rectangle-glass .row .col p{
+    position: relative;
+    width: 400px;
+    margin: 35px;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+/* or 63px */
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+.rectangle-glass #women img{
+position: relative;    
+width: 400.26px;
+height: 430.35px;
+top: 30px;
+left: 167px;
+
+
+}
+#indicator{
+    position: relative;
+    width: 300px;
+    height: 30px ;
+  
+}
+.items{
+
+    position: absolute;
+    display: flex;
+    left: -450px;
+    top: 400px;
+
+   background: #F7F7F7;
+
+  
+}
+
+.items li{
+ padding-left: 30px;
+}
+.items li button{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+    border: none;
+
+}
